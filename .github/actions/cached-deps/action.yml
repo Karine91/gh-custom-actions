@@ -8,7 +8,7 @@ inputs:
 outputs:
   used-cache:
     description: 'Whether the cache was used.'
-    value: ${{ steps.install.cache }}
+    value: 'Why it doesn't work ${{ steps.install.cache }}'
 runs:
   using: 'composite'
   steps:
